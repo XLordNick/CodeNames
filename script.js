@@ -73,7 +73,7 @@ function death_trigger(e) {
     RED_BT.disabled = true;
     NEUTRAL_BT.disabled = true;
     DEATH_BT.disabled = true;
-    disableBoard(false);
+    disableBoard(true);
     selected.style = "background-color: black";
     document.querySelector("#game_title").innerHTML = "GAME OVER, WHAT A DISGRACE";
 }
