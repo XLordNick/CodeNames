@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="data.js"></script>
+    <script src="script.js" defer></script>
+    <style>
+        html {
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+        
+        table {
+            table-layout: fixed;
+        }
+        
+        body {
+            background-image: url('brown-background-8.png');
+            background-position: center;
+            background-attachment: fixed;
+        }
+        
+        button {
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            background-color: transparent;
+            color: white;
+            font-size: 20px;
+            width: 100%;
+            height: 40px;
+        }
+        
+        .word_box {
+            width: 200px;
+            height: 100px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        
+        .setup {
+            display: flex;
+            justify-content: space-around;
+            width: 75%;
+        }
+        
+        .selection_bt,
+        .setup {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .setup button {
+            background-color: white;
+            color: black;
+        }
+        
+        .selection_bt {
+            display: flex;
+            justify-content: space-around;
+            width: 75%;
+        }
+        
+        .board {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    <title>Code Names</title>
+</head>
+
+<body>
+    <div class="setup">
+        <button id="start_game_bt">Start Game</button>
+        <button id="new_game_bt">New Game</button>
+        <button id="clear_bt">Clear Board</button>
+    </div>
+
+    <h1 id="game_title" style="text-align: center; color: white"> Code Names </h1>
+
+    <div class="game_board">
+        <table class="board">
+            <tr>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+            </tr>
+        </table>
+    </div>
+    <div class="selection_bt">
+        <button id="team_blue_bt" style="background-color: blue;"> Blue Team </button>
+        <button id="team_red_bt" style="background-color: red;"> Red Team </button>
+        <button id="neutral_bt" style="background-color: grey;"> Neutral </button>
+        <button id="death_bt" style="background-color: black;"> Death </button>
+    </div>
+
+    <div style="text-align: right"><a href="pattern_generator.html" target="_blank"><button id="generate_bt" style="width: auto">Generate Pattern</button></a></div>
+</body>
+
+</html>

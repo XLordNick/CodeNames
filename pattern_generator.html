@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="pattern_generator.js" defer></script>
+    <style>
+        html {
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+        
+        table {
+            table-layout: fixed;
+        }
+        
+        body {
+            background-image: url('brown-background-8.png');
+            background-position: center;
+            background-attachment: fixed;
+        }
+        
+        button {
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            background-color: transparent;
+            color: white;
+            font-size: 20px;
+            width: 100%;
+            height: 40px;
+        }
+        
+        .word_box {
+            width: 200px;
+            height: 100px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        
+        .game_board {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        
+        .realignment_bts {
+            display: flex;
+            justify-content: space-around;
+            width: 75%;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .team_selection_bt {
+            display: flex;
+            justify-content: space-around;
+            width: 75%;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    <title>Pattern Generation</title>
+</head>
+
+<body>
+    <div class="game_board">
+        <table class="board">
+            <tr>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+                <th>
+                    <div class="word_box"><button></button></div>
+                </th>
+            </tr>
+        </table>
+
+        <div class="realignment_bts">
+            <button id="left_bt" style="background-color: grey;">Rotate Left</button>
+            <button id="right_bt" style="background-color: grey">Rotate Right</button>
+        </div>
+
+        <div class="team_selection_bt">
+            <button id="blue_bt" style="background-color: blue;">Blue Team First</button>
+            <button id="redo_bt" style="background-color: black;">Regenerate Pattern</button>
+            <button id="red_bt" style="background-color: red;">Red Team First</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
