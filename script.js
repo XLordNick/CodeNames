@@ -38,6 +38,7 @@ function generateBoad() {
         }
         chosen.push(word);
         ALL_TABLE_ELEMENTS[i].innerHTML = word;
+        ALL_TABLE_ELEMENTS[i].style.backgroundColor = "";
     }
 }
 
