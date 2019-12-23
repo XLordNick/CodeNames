@@ -2,7 +2,7 @@
 This is a project intended to mimic the board game code names
 
 # Rules of the Game
-There are two teams and each game, a member from both team serve as the team captain
+*There are two teams and each game, a member from both team serve as the team captain
 The captains go to the generate board page and create a pattern. They have the option to rotate it left/right or generate a completely new pattern
 If they click Blue Team first, it generates a pattern where the Blue Team has 9 words and the Red Team has 8 words
 Once the captains agrees on a pattern and an orientation, they can generate the game board at the home page
