@@ -14,8 +14,7 @@ This is a project intended to mimic the board game code names
 - The first team to get all of their words first is the winner!!
 
 # How it Works
-The backend structure is backed by JavaScript and takes advantage of button clicking events fired by the HTML page
-The word bank used by the program is located in the data.js file, there are a total of 2265 nouns currently available
+The backend structure is backed by JavaScript and takes advantage of button clicking events fired by the HTML pageand the word bank used by the program is located in the data.js file. There are a total of 2265 nouns currently available and will be modified as needed.
 
 # Future Improvements and Fixes
 - [ ] Simplify pattern generation, current implementation adds in a bit of fluff to increase randomness
