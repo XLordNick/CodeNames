@@ -2,16 +2,16 @@
 This is a project intended to mimic the board game code names
 
 # *Rules of the Game
--There are two teams and each game, a member from both team serve as the team captain
--The captains go to the generate board page and create a pattern. They have the option to rotate it left/right or generate a completely new pattern
--If they click Blue Team first, it generates a pattern where the Blue Team has 9 words and the Red Team has 8 words
--Once the captains agrees on a pattern and an orientation, they can generate the game board at the home page
--Taking turns, each captain gives the other team members a word as a hint and a number symbolizing the number of words on the board
--The other team members can guess up to 1 more than the number words stated by the captain, but if any words are stated incorrectly, then the turn for the team is over
--The member makes a guess by clicking on the respective word, note that once clicked, you cannot undo
--The captains then indict with the buttons below the board whether the word is for the red team, blue team, neutral, or a death word
--If a team selects a death word, it is an automatic loss for them
--The first team to get all of their words first is the winner!!
+- There are two teams and each game, a member from both team serve as the team captain
+- The captains go to the generate board page and create a pattern. They have the option to rotate it left/right or generate a completely new pattern
+- If they click Blue Team first, it generates a pattern where the Blue Team has 9 words and the Red Team has 8 words
+- Once the captains agrees on a pattern and an orientation, they can generate the game board at the home page
+- Taking turns, each captain gives the other team members a word as a hint and a number symbolizing the number of words on the board
+- The other team members can guess up to 1 more than the number words stated by the captain, but if any words are stated incorrectly, then the turn for the team is over
+- The member makes a guess by clicking on the respective word, note that once clicked, you cannot undo
+- The captains then indict with the buttons below the board whether the word is for the red team, blue team, neutral, or a death word
+- If a team selects a death word, it is an automatic loss for them
+- The first team to get all of their words first is the winner!!
 
 # How it Works
 The backend structure is backed by JavaScript and takes advantage of button clicking events fired by the HTML page
