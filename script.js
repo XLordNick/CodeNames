@@ -109,6 +109,7 @@ function clear(e) {
     initialSetUp();
     for (let i = 0; i < ALL_TABLE_ELEMENTS.length; i++) {
         ALL_TABLE_ELEMENTS[i].innerHTML = "";
+        ALL_TABLE_ELEMENTS[i].style.backgroundColor = "";
     }
 }
 
